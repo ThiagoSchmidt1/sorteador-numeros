@@ -23,7 +23,7 @@ alterarBotaoStatus();
 
 function alterarBotaoStatus() {
     let botao = document.getElementById('btn-reiniciar');
-    if (botao.classList.contain('container__botao-desabilitado')) {
+    if (botao.classList.contains('container__botao-desabilitado')) {
         botao.classList.remove('container__botao-desabilitado');
         botao.classList.add('container__botao');
     } else {
@@ -43,3 +43,4 @@ function reiniciar() {
     document.getElementById('resultado').innerHTML = '<label class="texto__paragrafo">Números sorteados: nenhum até agora</label>';
     alterarBotaoStatus();
 }
+//Fim do código
