@@ -22,7 +22,7 @@ alterarBotaoStatus();
 }
 
 function alterarBotaoStatus() {
-    let botao = getElementById('btn-reiniciar');
+    let botao = document.getElementById('btn-reiniciar');
     if (botao.classList.contain('container__botao-desabilitado')) {
         botao.classList.remove('container__botao-desabilitado');
         botao.classList.add('container__botao');
